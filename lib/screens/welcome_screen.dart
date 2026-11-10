@@ -43,6 +43,10 @@ class WelcomeScreen extends StatelessWidget{
                style: textTheme.headlineMedium?.copyWith(color: scheme.onSurface),
              ),
 
+             const SizedBox(
+               height: 12,
+             ),
+
              Text(
                'Track courses, schedules and grades. Create an account to get started.',
                textAlign: TextAlign.center,
