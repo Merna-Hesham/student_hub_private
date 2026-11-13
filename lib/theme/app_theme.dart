@@ -7,6 +7,5 @@ ThemeData buildTheme(Brightness brightness){
     seedColor: kSeedColor,
     brightness: brightness
   );
-
   return ThemeData(useMaterial3: true, colorScheme: scheme);
 }
