@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class ProfileHeader extends StatelessWidget {
+class ProfileHeader extends StatelessWidget{
   final String name;
   final String subtitle;
 
@@ -12,7 +12,7 @@ class ProfileHeader extends StatelessWidget {
   const ProfileHeader({super.key, required this.name, required this.subtitle});
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context){
     final textTheme = Theme.of(context).textTheme;
     final scheme = Theme.of(context).colorScheme;
 

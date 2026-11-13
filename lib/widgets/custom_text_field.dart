@@ -22,7 +22,7 @@ class CustomTextField extends StatefulWidget{
   State<CustomTextField> createState() => _CustomTextFieldState();
 }
 
-class _CustomTextFieldState extends State<CustomTextField> {
+class _CustomTextFieldState extends State<CustomTextField>{
   bool _hidden = true;
 
   @override

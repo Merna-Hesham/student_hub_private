@@ -1,11 +1,11 @@
-String? validateName(String? value) {
+String? validateName(String? value){
   if (value == null || value.trim().isEmpty) {
     return 'Please enter your name';
   }
   return null;
 }
 
-String? validateEmail(String? value) {
+String? validateEmail(String? value){
   if (value == null || value.trim().isEmpty) {
     return 'Please enter your email';
   }
@@ -15,7 +15,7 @@ String? validateEmail(String? value) {
   return null;
 }
 
-String? validatePassword(String? value) {
+String? validatePassword(String? value){
   if (value == null || value.isEmpty) {
     return 'Please enter a password';
   }

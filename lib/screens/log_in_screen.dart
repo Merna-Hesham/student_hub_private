@@ -26,7 +26,7 @@ class _LogInScreenState extends State<LogInScreen>{
     super.dispose();
   }
 
-  void _submit() {
+  void _submit(){
     if (_formKey.currentState!.validate()){
       Navigator.pushReplacement(
         context,

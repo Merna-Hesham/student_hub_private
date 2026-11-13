@@ -31,7 +31,7 @@ class _SignUpScreenState extends State<SignUpScreen>{
     super.dispose();
   }
 
-  void _submit() {
+  void _submit(){
     if (!_formKey.currentState!.validate()){
       return;
     }

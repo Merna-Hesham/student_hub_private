@@ -13,7 +13,7 @@ class StreakCard extends StatelessWidget{
   });
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context){
     final textTheme = Theme.of(context).textTheme;
     final scheme = Theme.of(context).colorScheme;
 
